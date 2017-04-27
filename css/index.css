@@ -26,7 +26,7 @@
 #buy img{
     vertical-align: middle;
 }
-.stand{
+#header .stand{
     float:left;
     margin-top:30px;
     width: 190px;
@@ -35,7 +35,7 @@
     line-height:40px;
     text-align:center;
 }
-a{
+#header a{
     color:#fff;
 }
 .stand:hover{
@@ -77,7 +77,9 @@ background:url(../img/bg2.jpg) no-repeat;
 background:url(../img/bg3.jpg) no-repeat;
 }
 /*product开始*/
-
+#product{
+    height:1200px;
+}
 #product .make-up{
     width: 340px;
     height: 440px;
@@ -117,4 +119,50 @@ background:url(../img/bg3.jpg) no-repeat;
     background:#fa558f;
     float:right;
     font-size:20px;
+}
+/*problem开始*/
+#problem .wrapper{
+    width:1000px;
+}
+#problem .stand{
+    float: left;
+    margin-top:70px;
+    margin-right:90px;
+
+}
+#problem .last{
+    float: left;
+    margin-top:70px;
+    margin-right:0;
+
+}
+#problem .big{
+    font-weight: bolder;
+}
+#problem li a{
+    color:#fff;
+
+}
+#problem li{
+    list-style: disc;
+    color:#fff;
+}
+#problem{
+background:url(../img/banner2.jpg) no-repeat center ;
+    height:400px;
+}
+/*footer开始*/
+#footer{
+    background:#fa558f;
+    height:82px;
+    line-height: 82px;
+}
+#footer h3{
+    color:#fff;
+    float:left
+}
+#footer h4{
+    color:#fff;
+ float:right;
+
 }
