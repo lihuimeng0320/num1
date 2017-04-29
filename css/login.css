@@ -1,0 +1,83 @@
+#login-center{
+    height:400px;
+}
+#login-center label input{
+    width: 400px;
+    height: 38px;
+    outline:none;
+    text-indent:10px;
+}
+#login-center #login{
+    width:600px;
+    float:left;
+}
+
+#login-center #state{
+    margin-top:30px;
+}
+#login-center #state label {
+    margin-top:30px;
+    display:block;
+    /*outline:none;*/
+    /*text-indent:10px;*/
+}
+#login-center .look input{
+    width: 114px;
+    height: 41px;
+    background: #EF8743;
+    color: #fff;
+    margin-top:30px;
+    border-radius:10px;
+    border:0;
+}
+#login-center .look input:hover{
+    background: #fff;
+    border:1px solid #ccc;
+    color:#000;
+}
+#login-center a{
+    color: #5d5959;
+    display:block;
+    font-size:16px;
+    margin-top:30px;
+    margin-left:20px;
+    text-decoration:underline;
+}
+#register{
+    float:left;
+    width:500px;
+}
+#register h3{
+    color:#EF8743;
+}
+#register p{
+    margin-top:20px;
+    color: #5d5959;
+}
+
+#register a {
+    text-decoration:none;
+}
+#register .btn {
+    border: 1px #000 solid;
+    width: 114px;
+    height: 42px;
+    text-align: center;
+    display: block;
+    border-radius:10px;
+    line-height: 42px;
+    background: #fff;
+}
+#register .btn:hover{
+    background: #EF8743;
+    color:#fff;
+    border:0;
+}
+
+
+
+
+
+
+
+
